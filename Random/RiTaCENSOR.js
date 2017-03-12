@@ -9,7 +9,7 @@ function preload() {
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(0);
-	loadtextstring();
+	loadStrings(textstring, 0, 0);
 };
 
 function draw() {
