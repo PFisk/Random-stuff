@@ -1,9 +1,9 @@
 var font;
-var textString;
+var textstring;
 
 function preload() {
 	font = loadFont ("assets/font.ttf")
-	textString = loadStrings ("assets/ether.txt")
+	textstring = loadStrings ("assets/ether.txt")
 };
 
 function setup() {
