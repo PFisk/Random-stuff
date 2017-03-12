@@ -9,12 +9,12 @@ function preload() {
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(0);
-	loadtextString();
+	loadtextstring();
 };
 
 function draw() {
   background(0);
-  textFont(myFont);
+  textFont(font);
   writeText();  //function without an argument
   displaychar();
 };
